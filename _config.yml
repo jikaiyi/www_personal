@@ -1,7 +1,10 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /msaveski
+url: "https://jikaiyi.github.io"
+baseurl: "/www_personal"
+title: "Kaiyi Ji"
+description: "Kaiyi Ji is an Assistant Professor of Computer Science and Engineering at the University at Buffalo."
 
 collections:
   projects:
