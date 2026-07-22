@@ -2,267 +2,110 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
-  <p>
-  My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
-  My recent work has focused on social media algorithms
-  [<a href="assets/publications/2024_feedwizard/paper.pdf" target="_blank">ArXiv'24</a>,
-  <a href="assets/publications/2023_embedding_societal_values/paper.pdf" target="_blank">JOTS'23</a>],
-  reducing political polarization online 
-  [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">ICWSM'22a</a>,
-  <a href="assets/publications/2022_flipfeed/paper.pdf" target="_blank">ICWSM'22b</a>,
-  <a href="assets/publications/2021_balanced_inf_max/paper.pdf" target="_blank">WSDM'21</a>,
-  <a href="assets/publications/2018_social_mirror/paper.pdf" target="_blank">WWW'18</a>],
-  improving the health of online conversations 
-  [<a href="assets/publications/2021_dtox/paper.pdf" target="_blank">WWW'21</a>, 
-  <a href="assets/publications/2021_social_catalysts/paper.pdf" target="_blank">CSCW'21</a>], 
-  and causal inference in social systems 
-  [<a href="assets/publications/2024_ope_lipschitz/paper.pdf" target="_blank">ICML'24</a>,
-  <a href="assets/publications/2023_peer_review/paper.pdf" target="_blank">NeurIPS'23</a>,
-  <a href="assets/publications/2017_detecting_network_effects/paper.pdf" target="_blank">KDD'17</a>,
-  <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>]. 
-  My research often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
-  </p>
-
-  <p>
-  I'm an Assistant Professor in the Information School at the University of Washington.
-  Before joining UW, I was a Postdoc at Stanford University, mentored by <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>.
-  I received my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
-  Prior to coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
-  I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
-  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
-  </p> 
-</div>
-
-<!--
-<div class="docs-section" id="prospective-students">  
-  <h4>Prospective Students</h4>
-  <p>
-  <span style="display: inline-block; margin-bottom: 5px">
-    <b>I'm recruiting PhD students to start Fall 2025 at the University of Washington!</b> 
-  </span>
-  <br/> 
-  <span style="display: inline-block; margin-bottom: 5px">
-    I'm looking for students passionate about developing new <u>social media algorithms</u>, both broadly and within the scope of this <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403434" target="_blank">NSF grant</a> (collaboration with Stanford and Northwestern). For other examples, please see my recent publications. <br/>
-  </span>
-  <span style="display: inline-block; margin-bottom: 5px">
-    Students with strong technical skills and background or interest in social network analysis, machine learning, causal inference, or natural language processing would be a great fit.
-  </span>
-  <br/>
-  <span style="display: inline-block; margin-bottom: 5px">
-    If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
-  </span>
-  <br/>
-  <span>
-    If you have any questions, feel free to reach out.
-  </span>
-  </p> 
-</div>
--->
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
-  </p>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">Optimization · Machine Learning · AI</p>
+    <h1>Kaiyi Ji <span>吉凯意</span></h1>
+    <p class="role">Assistant Professor of Computer Science & Engineering<br><a href="{{ site.data.main_info.university }}">University at Buffalo, SUNY</a></p>
+    <p class="intro">I develop theoretical and algorithmic foundations for optimization and machine learning, with a focus on making modern AI systems more efficient, adaptive, and reliable.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#research">Explore my research</a>
+      <a class="button" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>
     </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
+    <div class="contact-row">
+      <a href="mailto:kaiyiji@buffalo.edu"><i class="fa-regular fa-envelope"></i> kaiyiji@buffalo.edu</a>
+      <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+      <span><i class="fa-solid fa-location-dot"></i> 338G Davis Hall</span>
     </div>
   </div>
-</div>
+  <figure class="portrait-wrap">
+    <div class="portrait-accent"></div>
+    <img src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Portrait of Kaiyi Ji">
+    <figcaption>University at Buffalo<br>Department of CSE</figcaption>
+  </figure>
+</section>
 
-<!-- ========== PROJECTS ========== 
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
+<section class="section about" id="about">
+  <div class="section-label">About</div>
+  <div class="section-content prose-large">
+    <p>I am an Assistant Professor in Computer Science and Engineering at the University at Buffalo. Previously, I was a Postdoctoral Researcher at the University of Michigan, Ann Arbor, and a Visiting Student Research Collaborator at Princeton University.</p>
+    <p>I received my Ph.D. in Electrical and Computer Engineering from The Ohio State University, advised by Prof. Yingbin Liang, and my B.E. from the University of Science and Technology of China.</p>
+    <div class="award-strip"><strong>Recent recognition</strong><span>NSF CAREER Award · 2025</span><span>SEAS Early Career Researcher of the Year · 2026</span><span>UB Exceptional Scholar Award – Young Investigator · 2026</span></div>
+  </div>
+</section>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+<section class="section" id="research">
+  <div class="section-label">Research</div>
+  <div class="section-content">
+    <div class="section-heading"><h2>Foundations for efficient, adaptive learning</h2><p>My group connects optimization theory with modern machine-learning practice.</p></div>
+    <div class="research-grid">
+      <article><span>01</span><h3>Optimization for modern ML</h3><p>Parameter-efficient optimization, multi-objective learning, and bilevel optimization.</p></article>
+      <article><span>02</span><h3>Foundations of AI & ML</h3><p>Multi-task learning, continual learning, and meta-learning with rigorous guarantees.</p></article>
+      <article><span>03</span><h3>Foundation-model adaptation</h3><p>PEFT and LoRA for multi-task and federated settings, continual tuning, and multi-objective alignment.</p></article>
+      <article><span>04</span><h3>Real-world validation</h3><p>Methods evaluated in robotics, recommendation systems, natural language processing, and health.</p></article>
     </div>
   </div>
+</section>
 
-</div>
--->
+<section class="section" id="news">
+  <div class="section-label">Latest</div>
+  <div class="section-content">
+    <div class="section-heading"><h2>News & milestones</h2><a href="{{ site.data.main_info.old_site }}" target="_blank" rel="noopener">Full archive ↗</a></div>
+    <ol class="news-list">
+      <li><time>Jun 2026</time><div><span class="tag award">Award</span><p>Received UB’s Exceptional Scholar Award – Young Investigator.</p></div></li>
+      <li><time>Jun 2026</time><div><span class="tag paper">Publication</span><p><a href="https://arxiv.org/abs/2502.08585">LDC-MTL</a> was accepted to ECCV 2026.</p></div></li>
+      <li><time>May 2026</time><div><span class="tag paper">Publication</span><p>Two papers on lower bounds for bilevel optimization and backward knowledge transfer for LLMs were accepted to ICML 2026.</p></div></li>
+      <li><time>May 2026</time><div><span class="tag paper">Publication</span><p><a href="https://arxiv.org/abs/2502.02748">ReciNet</a> was accepted to TMLR 2026.</p></div></li>
+      <li><time>Apr 2026</time><div><span class="tag award">Award</span><p>Named SEAS Early Career Researcher of the Year.</p></div></li>
+      <li><time>Mar 2026</time><div><span class="tag service">Service</span><p>Serving as an Area Chair for NeurIPS 2026.</p></div></li>
+    </ol>
+  </div>
+</section>
 
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Vitæ</h4>
+<section class="section" id="publications">
+  <div class="section-label">Selected work</div>
+  <div class="section-content">
+    <div class="section-heading"><h2>Publications</h2><div><a href="https://cse.buffalo.edu/~kaiyiji/research.html">Full list</a> · <a href="{{ site.data.main_info.google_scholar }}">Google Scholar ↗</a></div></div>
+    <div class="publication-list">
+      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2502.08585">LDC-MTL: Balancing Multi-Task Learning through Scalable Loss Discrepancy Control</a></h3><p>Peiyao Xiao, Chaosheng Dong, Shaofeng Zou, <strong>Kaiyi Ji</strong></p><p class="venue">ECCV 2026</p></div></article>
+      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2509.25414">Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning</a></h3><p>Anushka Tiwari and <strong>Kaiyi Ji</strong></p><p class="venue">ICML 2026</p></div></article>
+      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2406.16087">Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs</a></h3><p>Hao Ban and <strong>Kaiyi Ji</strong></p><p class="venue">ACL 2026 Findings</p></div></article>
+      <article><div class="pub-year">2025</div><div><h3><a href="https://arxiv.org/abs/2410.05140">Tuning-Free Bilevel Optimization: New Algorithms and Convergence Analysis</a></h3><p>Yifan Yang, Hao Ban, Minhui Huang, Shiqian Ma, <strong>Kaiyi Ji</strong></p><p class="venue">ICLR 2025</p></div></article>
+      <article><div class="pub-year">2025</div><div><h3><a href="https://arxiv.org/abs/2306.17811">Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy</a></h3><p>Chen Wang, <strong>Kaiyi Ji</strong>, et al.</p><p class="venue">The International Journal of Robotics Research</p></div></article>
+      <article><div class="pub-year">2024</div><div><h3><a href="https://arxiv.org/abs/2402.15638">Fair Resource Allocation in Multi-Task Learning</a></h3><p>Hao Ban and <strong>Kaiyi Ji</strong></p><p class="venue">ICML 2024</p></div></article>
+    </div>
+  </div>
+</section>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+<section class="section" id="group">
+  <div class="section-label">People</div>
+  <div class="section-content">
+    <div class="section-heading"><h2>Research group</h2><p>Optimization and Machine Learning Lab at UB</p></div>
+    <div class="people-columns">
+      <div><h3>Ph.D. students</h3><ul><li><a href="https://xiaopeiyao.github.io/">Peiyao Xiao</a><span>2023–present</span></li><li><a href="https://scholar.google.com/">Hao Ban</a><span>2023–present</span></li><li>Anushka Tiwari<span>2025–present</span></li><li><a href="https://fujump.github.io/">Qiang Hu</a><span>2025–present</span></li><li>Ziming Yang<span>Starting Fall 2026</span></li></ul></div>
+      <div><h3>Collaborators & alumni</h3><ul><li>Rohan Sharma<span>Collaborative Ph.D. student</span></li><li>Zhaofeng Si<span>Collaborative Ph.D. student</span></li><li><a href="https://meng-ding.github.io/">Meng Ding</a><span>Ph.D. 2026 · UMass Boston</span></li><li>Yujie Zhu<span>M.S. 2026</span></li><li>Gokul Ram Subramani<span>M.S. 2025 · Meta</span></li></ul></div>
+    </div>
+    <p class="support">Our group is generously supported by the National Science Foundation and the University at Buffalo.</p>
+  </div>
+</section>
 
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
-      {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<section class="section" id="teaching">
+  <div class="section-label">Teaching</div>
+  <div class="section-content">
+    <div class="section-heading"><h2>Courses</h2><p>Optimization, machine learning, and deep learning.</p></div>
+    <div class="course-grid"><article><time>Spring 2025</time><h3>CSE 676</h3><p>Deep Learning</p></article><article><time>Fall 2024</time><h3>CSE 705 SEM</h3><p>Recent Progresses in Machine Learning</p></article><article><time>Spring 2024</time><h3>CSE 676 A</h3><p>Deep Learning</p></article><article><time>Fall 2022</time><h3>CSE 712</h3><p>Optimization for Modern Machine Learning</p></article></div>
+  </div>
+</section>
 
-<div class="docs-section" id="template">
-  <h4>Website Design</h4>
-  Since I made this website, many people have found this Jekyll template useful [
-  {% for template_user in site.data.template_users.template_users %}
-  <a href="{{ template_user }}" target="_blank">{{ forloop.index }}</a>{% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}
-  ].
-  <!--<br/>-->
-  You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-  Feel free to use it. <br/>
+<section class="section" id="recognition">
+  <div class="section-label">Recognition</div>
+  <div class="section-content two-up">
+    <div><h2>Awards</h2><ul class="plain-list"><li><strong>2026</strong> UB Exceptional Scholar Award – Young Investigator</li><li><strong>2026</strong> SEAS Early Career Researcher of the Year</li><li><strong>2025</strong> CSE Excellence in Research Award</li><li><strong>2025</strong> NSF CAREER Award</li><li><strong>2025</strong> IJCAI GLOW Best Paper Candidate</li><li><strong>2023</strong> UB CSE Junior Faculty Research Award</li></ul></div>
+    <div><h2>Service</h2><ul class="plain-list"><li><strong>Area Chair</strong> ICLR 2026; NeurIPS 2026</li><li><strong>Program Committee</strong> MobiHoc 2023–2025; IEEE ITW 2025</li><li><strong>Reviewer</strong> ICML, NeurIPS, ICLR, AISTATS, CVPR, ICCV, UAI, IJCAI, AAAI</li><li><strong>Department</strong> Associate Chair, Graduate Admissions</li><li><strong>Outreach</strong> Co-organizer, CSExplore K–12 education</li></ul></div>
+  </div>
+</section>
 
-  If you end up using it, please link to here and drop me an email.
-  I'm always happy to see people using it.
-</div>  
+<section class="contact-cta">
+  <p class="eyebrow">Let’s connect</p><h2>Interested in optimization<br>and machine learning?</h2>
+  <p>For research inquiries and collaboration, reach me at <a href="mailto:kaiyiji@buffalo.edu">kaiyiji@buffalo.edu</a>.</p>
+</section>
