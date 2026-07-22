@@ -2,110 +2,68 @@
 layout: default
 title: Home
 ---
-<section class="hero" id="home">
-  <div class="hero-copy">
-    <p class="eyebrow">Optimization · Machine Learning · AI</p>
-    <h1>Kaiyi Ji <span>吉凯意</span></h1>
-    <p class="role">Assistant Professor of Computer Science & Engineering<br><a href="{{ site.data.main_info.university }}">University at Buffalo, SUNY</a></p>
-    <p class="intro">I develop theoretical and algorithmic foundations for optimization and machine learning, with a focus on making modern AI systems more efficient, adaptive, and reliable.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="#research">Explore my research</a>
-      <a class="button" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>
-    </div>
-    <div class="contact-row">
-      <a href="mailto:kaiyiji@buffalo.edu"><i class="fa-regular fa-envelope"></i> kaiyiji@buffalo.edu</a>
-      <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
-      <span><i class="fa-solid fa-location-dot"></i> 338G Davis Hall</span>
-    </div>
-  </div>
-  <figure class="portrait-wrap">
-    <div class="portrait-accent"></div>
-    <img src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Portrait of Kaiyi Ji">
-    <figcaption>University at Buffalo<br>Department of CSE</figcaption>
-  </figure>
-</section>
+<section class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p class="recruiting"><strong>Research focus:</strong> theoretical and algorithmic foundations for optimization and machine learning, with applications to efficient and adaptive AI.</p>
+  <p>I am an Assistant Professor in Computer Science and Engineering at the <a href="https://www.buffalo.edu/">University at Buffalo</a>. Previously, I was a Postdoctoral Researcher in Electrical Engineering and Computer Science at the University of Michigan, Ann Arbor, and a Visiting Student Research Collaborator in Electrical Engineering at Princeton University.</p>
+  <p>I received my Ph.D. in Electrical and Computer Engineering from The Ohio State University, supervised by Prof. Yingbin Liang, and my B.E. from the University of Science and Technology of China.</p>
+  <p><strong>Selected honors:</strong> NSF CAREER Award (2025), CSE Excellence in Research Award (2025), SEAS Early Career Researcher of the Year Award (2026), and UB Exceptional Scholar Award – Young Investigator (2026).</p>
 
-<section class="section about" id="about">
-  <div class="section-label">About</div>
-  <div class="section-content prose-large">
-    <p>I am an Assistant Professor in Computer Science and Engineering at the University at Buffalo. Previously, I was a Postdoctoral Researcher at the University of Michigan, Ann Arbor, and a Visiting Student Research Collaborator at Princeton University.</p>
-    <p>I received my Ph.D. in Electrical and Computer Engineering from The Ohio State University, advised by Prof. Yingbin Liang, and my B.E. from the University of Science and Technology of China.</p>
-    <div class="award-strip"><strong>Recent recognition</strong><span>NSF CAREER Award · 2025</span><span>SEAS Early Career Researcher of the Year · 2026</span><span>UB Exceptional Scholar Award – Young Investigator · 2026</span></div>
+  <h5>Research overview</h5>
+  <div class="research-cards">
+    <article><h6>Optimization for modern ML</h6><p>Parameter-efficient optimization, multi-objective learning, and bilevel optimization.</p></article>
+    <article><h6>Foundations of AI and ML</h6><p>Multi-task learning, continual learning, and meta-learning with rigorous guarantees.</p></article>
+    <article><h6>Foundation-model adaptation</h6><p>PEFT and LoRA for multi-task and federated settings, continual tuning, and multi-objective alignment.</p></article>
+    <article><h6>Applications</h6><p>Methods validated in robotics, recommendation systems, natural language processing, and health.</p></article>
   </div>
 </section>
 
-<section class="section" id="research">
-  <div class="section-label">Research</div>
-  <div class="section-content">
-    <div class="section-heading"><h2>Foundations for efficient, adaptive learning</h2><p>My group connects optimization theory with modern machine-learning practice.</p></div>
-    <div class="research-grid">
-      <article><span>01</span><h3>Optimization for modern ML</h3><p>Parameter-efficient optimization, multi-objective learning, and bilevel optimization.</p></article>
-      <article><span>02</span><h3>Foundations of AI & ML</h3><p>Multi-task learning, continual learning, and meta-learning with rigorous guarantees.</p></article>
-      <article><span>03</span><h3>Foundation-model adaptation</h3><p>PEFT and LoRA for multi-task and federated settings, continual tuning, and multi-objective alignment.</p></article>
-      <article><span>04</span><h3>Real-world validation</h3><p>Methods evaluated in robotics, recommendation systems, natural language processing, and health.</p></article>
-    </div>
-  </div>
+<section class="docs-section" id="news">
+  <div class="section-title-row"><h4>News</h4><a href="{{ site.data.main_info.old_site }}">Full archive</a></div>
+  <ul class="news-list">
+    <li><strong>Jun 2026.</strong> Received UB’s Exceptional Scholar Award – Young Investigator.</li>
+    <li><strong>Jun 2026.</strong> <a href="https://arxiv.org/abs/2502.08585">LDC-MTL</a> was accepted to ECCV 2026.</li>
+    <li><strong>Jun 2026.</strong> Meng Ding successfully defended her dissertation and will join UMass Boston CS as an Assistant Professor.</li>
+    <li><strong>May 2026.</strong> Two papers on bilevel lower bounds and backward knowledge transfer for LLMs were accepted to ICML 2026.</li>
+    <li><strong>May 2026.</strong> <a href="https://arxiv.org/abs/2502.02748">ReciNet</a> was accepted to TMLR 2026.</li>
+    <li><strong>Apr 2026.</strong> Named SEAS Early Career Researcher of the Year.</li>
+    <li><strong>Mar 2026.</strong> Serving as an Area Chair for NeurIPS 2026.</li>
+    <li><strong>Feb 2026.</strong> The open-source <a href="https://github.com/amazon-science/DeepMTL2R">DeepMTL2R</a> multi-task learning-to-rank library is online.</li>
+  </ul>
 </section>
 
-<section class="section" id="news">
-  <div class="section-label">Latest</div>
-  <div class="section-content">
-    <div class="section-heading"><h2>News & milestones</h2><a href="{{ site.data.main_info.old_site }}" target="_blank" rel="noopener">Full archive ↗</a></div>
-    <ol class="news-list">
-      <li><time>Jun 2026</time><div><span class="tag award">Award</span><p>Received UB’s Exceptional Scholar Award – Young Investigator.</p></div></li>
-      <li><time>Jun 2026</time><div><span class="tag paper">Publication</span><p><a href="https://arxiv.org/abs/2502.08585">LDC-MTL</a> was accepted to ECCV 2026.</p></div></li>
-      <li><time>May 2026</time><div><span class="tag paper">Publication</span><p>Two papers on lower bounds for bilevel optimization and backward knowledge transfer for LLMs were accepted to ICML 2026.</p></div></li>
-      <li><time>May 2026</time><div><span class="tag paper">Publication</span><p><a href="https://arxiv.org/abs/2502.02748">ReciNet</a> was accepted to TMLR 2026.</p></div></li>
-      <li><time>Apr 2026</time><div><span class="tag award">Award</span><p>Named SEAS Early Career Researcher of the Year.</p></div></li>
-      <li><time>Mar 2026</time><div><span class="tag service">Service</span><p>Serving as an Area Chair for NeurIPS 2026.</p></div></li>
-    </ol>
-  </div>
+<section class="docs-section" id="publications">
+  <div class="section-title-row"><h4>Selected Publications</h4><span><a href="https://cse.buffalo.edu/~kaiyiji/research.html">All publications</a> · <a href="{{ site.data.main_info.google_scholar }}">Google Scholar</a></span></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2502.08585">LDC-MTL: Balancing Multi-Task Learning through Scalable Loss Discrepancy Control</a></p><p>Peiyao Xiao, Chaosheng Dong, Shaofeng Zou, <strong>Kaiyi Ji</strong>.</p><p><em>European Conference on Computer Vision (ECCV), 2026.</em></p></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2509.25414">Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning</a></p><p>Anushka Tiwari and <strong>Kaiyi Ji</strong>.</p><p><em>International Conference on Machine Learning (ICML), 2026.</em></p></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2406.16087">Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs</a></p><p>Hao Ban and <strong>Kaiyi Ji</strong>.</p><p><em>ACL Findings, 2026.</em></p></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2410.05140">Tuning-Free Bilevel Optimization: New Algorithms and Convergence Analysis</a></p><p>Yifan Yang, Hao Ban, Minhui Huang, Shiqian Ma, <strong>Kaiyi Ji</strong>.</p><p><em>International Conference on Learning Representations (ICLR), 2025.</em></p></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2306.17811">Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy</a></p><p>Chen Wang, <strong>Kaiyi Ji</strong>, et al.</p><p><em>The International Journal of Robotics Research, 2025.</em></p></div>
+  <div class="paper"><p class="title"><a href="https://arxiv.org/abs/2402.15638">Fair Resource Allocation in Multi-Task Learning</a></p><p>Hao Ban and <strong>Kaiyi Ji</strong>.</p><p><em>International Conference on Machine Learning (ICML), 2024.</em></p></div>
 </section>
 
-<section class="section" id="publications">
-  <div class="section-label">Selected work</div>
-  <div class="section-content">
-    <div class="section-heading"><h2>Publications</h2><div><a href="https://cse.buffalo.edu/~kaiyiji/research.html">Full list</a> · <a href="{{ site.data.main_info.google_scholar }}">Google Scholar ↗</a></div></div>
-    <div class="publication-list">
-      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2502.08585">LDC-MTL: Balancing Multi-Task Learning through Scalable Loss Discrepancy Control</a></h3><p>Peiyao Xiao, Chaosheng Dong, Shaofeng Zou, <strong>Kaiyi Ji</strong></p><p class="venue">ECCV 2026</p></div></article>
-      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2509.25414">Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning</a></h3><p>Anushka Tiwari and <strong>Kaiyi Ji</strong></p><p class="venue">ICML 2026</p></div></article>
-      <article><div class="pub-year">2026</div><div><h3><a href="https://arxiv.org/abs/2406.16087">Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs</a></h3><p>Hao Ban and <strong>Kaiyi Ji</strong></p><p class="venue">ACL 2026 Findings</p></div></article>
-      <article><div class="pub-year">2025</div><div><h3><a href="https://arxiv.org/abs/2410.05140">Tuning-Free Bilevel Optimization: New Algorithms and Convergence Analysis</a></h3><p>Yifan Yang, Hao Ban, Minhui Huang, Shiqian Ma, <strong>Kaiyi Ji</strong></p><p class="venue">ICLR 2025</p></div></article>
-      <article><div class="pub-year">2025</div><div><h3><a href="https://arxiv.org/abs/2306.17811">Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy</a></h3><p>Chen Wang, <strong>Kaiyi Ji</strong>, et al.</p><p class="venue">The International Journal of Robotics Research</p></div></article>
-      <article><div class="pub-year">2024</div><div><h3><a href="https://arxiv.org/abs/2402.15638">Fair Resource Allocation in Multi-Task Learning</a></h3><p>Hao Ban and <strong>Kaiyi Ji</strong></p><p class="venue">ICML 2024</p></div></article>
-    </div>
+<section class="docs-section" id="people">
+  <h4>People</h4>
+  <div class="people-grid">
+    <div><h5>Ph.D. Students</h5><ul><li><a href="https://xiaopeiyao.github.io/">Peiyao Xiao</a> <span>2023–present</span></li><li><a href="https://scholar.google.com/">Hao Ban</a> <span>2023–present</span></li><li>Anushka Tiwari <span>2025–present</span></li><li><a href="https://fujump.github.io/">Qiang Hu</a> <span>2025–present</span></li><li>Ziming Yang <span>Fall 2026</span></li></ul></div>
+    <div><h5>Collaborators & Alumni</h5><ul><li>Rohan Sharma <span>Collaborative Ph.D.</span></li><li>Zhaofeng Si <span>Collaborative Ph.D.</span></li><li><a href="https://meng-ding.github.io/">Meng Ding</a> <span>Ph.D. 2026 · UMass Boston</span></li><li>Yujie Zhu <span>M.S. 2026</span></li><li>Gokul Ram Subramani <span>M.S. 2025 · Meta</span></li></ul></div>
   </div>
+  <p class="support-note">Our group is generously supported by the National Science Foundation and the University at Buffalo.</p>
 </section>
 
-<section class="section" id="group">
-  <div class="section-label">People</div>
-  <div class="section-content">
-    <div class="section-heading"><h2>Research group</h2><p>Optimization and Machine Learning Lab at UB</p></div>
-    <div class="people-columns">
-      <div><h3>Ph.D. students</h3><ul><li><a href="https://xiaopeiyao.github.io/">Peiyao Xiao</a><span>2023–present</span></li><li><a href="https://scholar.google.com/">Hao Ban</a><span>2023–present</span></li><li>Anushka Tiwari<span>2025–present</span></li><li><a href="https://fujump.github.io/">Qiang Hu</a><span>2025–present</span></li><li>Ziming Yang<span>Starting Fall 2026</span></li></ul></div>
-      <div><h3>Collaborators & alumni</h3><ul><li>Rohan Sharma<span>Collaborative Ph.D. student</span></li><li>Zhaofeng Si<span>Collaborative Ph.D. student</span></li><li><a href="https://meng-ding.github.io/">Meng Ding</a><span>Ph.D. 2026 · UMass Boston</span></li><li>Yujie Zhu<span>M.S. 2026</span></li><li>Gokul Ram Subramani<span>M.S. 2025 · Meta</span></li></ul></div>
-    </div>
-    <p class="support">Our group is generously supported by the National Science Foundation and the University at Buffalo.</p>
-  </div>
+<section class="docs-section" id="teaching">
+  <h4>Courses</h4>
+  <ul class="course-list"><li><strong>Spring 2025</strong> — CSE 676: Deep Learning</li><li><strong>Fall 2024</strong> — CSE 705 SEM: Recent Progresses in Machine Learning</li><li><strong>Spring 2024</strong> — CSE 676 A: Deep Learning</li><li><strong>Fall 2023</strong> — CSE 676: Deep Learning</li><li><strong>Spring 2023</strong> — CSE 701: Recent Progresses in Machine Learning</li><li><strong>Fall 2022</strong> — CSE 712: Optimization for Modern Machine Learning</li></ul>
 </section>
 
-<section class="section" id="teaching">
-  <div class="section-label">Teaching</div>
-  <div class="section-content">
-    <div class="section-heading"><h2>Courses</h2><p>Optimization, machine learning, and deep learning.</p></div>
-    <div class="course-grid"><article><time>Spring 2025</time><h3>CSE 676</h3><p>Deep Learning</p></article><article><time>Fall 2024</time><h3>CSE 705 SEM</h3><p>Recent Progresses in Machine Learning</p></article><article><time>Spring 2024</time><h3>CSE 676 A</h3><p>Deep Learning</p></article><article><time>Fall 2022</time><h3>CSE 712</h3><p>Optimization for Modern Machine Learning</p></article></div>
-  </div>
+<section class="docs-section" id="awards">
+  <h4>Awards</h4>
+  <ul><li>UB Exceptional Scholar Award – Young Investigator (2026)</li><li>SEAS Early Career Researcher of the Year Award (2026)</li><li>CSE Excellence in Research Award (2025)</li><li>NSF CAREER Award (2025)</li><li>Best Paper Candidate Award, IJCAI GLOW Workshop (2025)</li><li>UB CSE Junior Faculty Research Award (2023)</li><li>Outstanding Reviewer Award, NeurIPS, ICML, and AISTATS</li></ul>
+  <h5>NSF Awards</h5>
+  <ul><li>CAREER: Large-Scale Multi-Objective Learning: Novel Algorithms and Fundamental Theory (2025–2030)</li><li>New Theory, Algorithms and Applications for Large-Scale Bilevel Optimization (2023–2026)</li><li>Distributed Bilevel Optimization in Multi-Agent Systems (2023–2026)</li></ul>
 </section>
 
-<section class="section" id="recognition">
-  <div class="section-label">Recognition</div>
-  <div class="section-content two-up">
-    <div><h2>Awards</h2><ul class="plain-list"><li><strong>2026</strong> UB Exceptional Scholar Award – Young Investigator</li><li><strong>2026</strong> SEAS Early Career Researcher of the Year</li><li><strong>2025</strong> CSE Excellence in Research Award</li><li><strong>2025</strong> NSF CAREER Award</li><li><strong>2025</strong> IJCAI GLOW Best Paper Candidate</li><li><strong>2023</strong> UB CSE Junior Faculty Research Award</li></ul></div>
-    <div><h2>Service</h2><ul class="plain-list"><li><strong>Area Chair</strong> ICLR 2026; NeurIPS 2026</li><li><strong>Program Committee</strong> MobiHoc 2023–2025; IEEE ITW 2025</li><li><strong>Reviewer</strong> ICML, NeurIPS, ICLR, AISTATS, CVPR, ICCV, UAI, IJCAI, AAAI</li><li><strong>Department</strong> Associate Chair, Graduate Admissions</li><li><strong>Outreach</strong> Co-organizer, CSExplore K–12 education</li></ul></div>
-  </div>
-</section>
-
-<section class="contact-cta">
-  <p class="eyebrow">Let’s connect</p><h2>Interested in optimization<br>and machine learning?</h2>
-  <p>For research inquiries and collaboration, reach me at <a href="mailto:kaiyiji@buffalo.edu">kaiyiji@buffalo.edu</a>.</p>
+<section class="docs-section" id="service">
+  <h4>Service</h4>
+  <div class="service-grid"><div><h5>Conference Service</h5><ul><li>Area Chair: ICLR 2026; NeurIPS 2026</li><li>Program Committee: MobiHoc 2023–2025; IEEE ITW 2025</li><li>Reviewer: ICML, NeurIPS, ICLR, AISTATS, CVPR, ICCV, UAI, IJCAI, AAAI</li></ul></div><div><h5>Department & Outreach</h5><ul><li>Associate Chair, Graduate Student Admission Committee</li><li>Co-organizer, CSExplore Committee for K–12 Education</li><li>Chair, CSE Colloquium & Upbeat Committee (2023)</li></ul></div></div>
 </section>
