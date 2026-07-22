@@ -32,14 +32,45 @@ title: Home
 
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}">Google Scholar</a>. See the <a href="https://cse.buffalo.edu/~kaiyiji/research.html">full publication list</a>.</p>
+  <p>* indicates equal contribution. See also <a href="{{ site.data.main_info.google_scholar }}">Google Scholar</a>.</p>
 
-  <div class="paper"><p class="title"><b>LDC-MTL: Balancing Multi-Task Learning through Scalable Loss Discrepancy Control</b></p><p>Peiyao Xiao, Chaosheng Dong, Shaofeng Zou, <b>Kaiyi Ji</b>.</p><p><i>ECCV 2026.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2502.08585">Paper</a><a class="button" href="https://github.com/OptMN-Lab/LDC-MTL">Code</a></div></div>
-  <div class="paper"><p class="title"><b>Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning</b></p><p>Anushka Tiwari and <b>Kaiyi Ji</b>.</p><p><i>ICML 2026.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2509.25414">Paper</a></div></div>
-  <div class="paper"><p class="title"><b>Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs</b></p><p>Hao Ban and <b>Kaiyi Ji</b>.</p><p><i>ACL 2026 Findings.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2406.16087">Paper</a></div></div>
-  <div class="paper"><p class="title"><b>Tuning-Free Bilevel Optimization: New Algorithms and Convergence Analysis</b></p><p>Yifan Yang, Hao Ban, Minhui Huang, Shiqian Ma, <b>Kaiyi Ji</b>.</p><p><i>ICLR 2025.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2410.05140">Paper</a><a class="button" href="https://github.com/OptMN-Lab/tfbo">Code</a></div></div>
-  <div class="paper"><p class="title"><b>Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy</b></p><p>Chen Wang, <b>Kaiyi Ji</b>, et al.</p><p><i>The International Journal of Robotics Research, 2025.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2306.17811">Paper</a><a class="button" href="https://github.com/pypose/pypose">Library</a></div></div>
-  <div class="paper"><p class="title"><b>Fair Resource Allocation in Multi-Task Learning</b></p><p>Hao Ban and <b>Kaiyi Ji</b>.</p><p><i>ICML 2024.</i></p><div class="paper-buttons"><a class="button" href="https://arxiv.org/abs/2402.15638">Paper</a><a class="button" href="https://github.com/OptMN-Lab/fairgrad">Code</a></div></div>
+  <ul class="tab-nav">
+    <li><button class="button" data-ref="#pub-highlighted">Highlighted</button></li>
+    <li><button class="button" data-ref="#pub-recent">Recent</button></li>
+    <li><button class="active button" data-ref="#pub-all">All</button></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane" id="pub-highlighted">
+      {% for publication in site.data.kaiyi_publications %}{% if publication.highlighted %}
+      <div class="paper">
+        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p>{{ publication.details }}</p>
+        {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+
+    <div class="tab-pane" id="pub-recent">
+      {% assign recent_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.recent %}{% if publication.year != recent_year %}<h5>{{ publication.year }}</h5>{% assign recent_year = publication.year %}{% endif %}
+      <div class="paper">
+        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p>{{ publication.details }}</p>
+        {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+
+    <div class="tab-pane active" id="pub-all">
+      {% assign publication_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.year != publication_year %}<h5>{{ publication.year }}</h5>{% assign publication_year = publication.year %}{% endif %}
+      <div class="paper">
+        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p>{{ publication.details }}</p>
+        {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div class="docs-section" id="group">
