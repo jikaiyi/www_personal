@@ -7,35 +7,61 @@
   <meta name="author" content="Kaiyi Ji">
   <meta property="og:title" content="Kaiyi Ji | {{ page.title }}">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:type" content="website">
   <title>Kaiyi Ji | {{ page.title }}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/libs/external/skeleton/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/libs/external/skeleton/skeleton.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/libs/external/fontawesome-free-6.6.0-web/css/all.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/libs/external/academicons-1.8.6/css/academicons.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/libs/custom/my_css.css' | relative_url }}">
   <script defer src="{{ '/libs/custom/my_js.js' | relative_url }}"></script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">KJ</a>
-    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-      <span></span><span></span>
-    </button>
-    <nav id="site-nav" aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#news">News</a>
-      <a href="#publications">Publications</a>
-      <a href="#group">Group</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#recognition">Awards & Service</a>
+  <div class="container">
+    <header class="header" id="home">
+      <div class="row header-row">
+        <div class="three columns portrait-column">
+          <img class="profile-photo" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Portrait of Kaiyi Ji">
+        </div>
+        <div class="six columns main-description">
+          <h1>{{ site.data.main_info.name }}</h1>
+          <p class="chinese-name">{{ site.data.main_info.name_cn }}</p>
+          <p>{{ site.data.main_info.title }}</p>
+          <p><a href="{{ site.data.main_info.university }}">{{ site.data.main_info.institution }}</a></p>
+          <p>{{ site.data.main_info.email }}</p>
+          <p>{{ site.data.main_info.address }}</p>
+          <div class="social-links">
+            <a href="mailto:kaiyiji@buffalo.edu" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            <a href="{{ site.data.main_info.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="{{ site.data.main_info.github }}" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="three columns affiliation">
+          <a href="{{ site.data.main_info.department }}"><strong>UB CSE</strong></a>
+          <a href="{{ site.data.main_info.university }}">University at Buffalo</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar" aria-label="Main navigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <ul class="navbar-list" id="site-nav">
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#people">People</a></li>
+        <li><a href="#teaching">Courses</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#service">Service</a></li>
+      </ul>
     </nav>
-  </header>
-  <main>{{ content }}</main>
-  <footer>
-    <p>© {{ 'now' | date: '%Y' }} Kaiyi Ji · Built with Jekyll.</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
+
+    <main>{{ content }}</main>
+    <footer class="footer">
+      <span>© {{ 'now' | date: '%Y' }} Kaiyi Ji</span>
+      <span>kaiyiji [AT] buffalo.edu</span>
+      <a href="#home">Back to top</a>
+    </footer>
+  </div>
 </body>
 </html>
