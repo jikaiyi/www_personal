@@ -6,7 +6,9 @@
     "paper": "https://arxiv.org/pdf/2507.14725",
     "recent": false,
     "title": "GRID: Scaling Task-Agnostic Inference in Continual Prompt Tuning",
-    "year": "Preprints"
+    "year": "Preprints",
+    "authors": "Anushka Tiwari, Sayantan Pal, Rohini K Srihari, Kaiyi Ji.",
+    "venue": "Submitted, 2026."
   },
   {
     "code": "https://github.com/OptMN-Lab/LDC-MTL",
@@ -15,7 +17,9 @@
     "paper": "https://arxiv.org/pdf/2502.08585",
     "recent": false,
     "title": "LDC-MTL: Balancing Multi-Task Learning through Scalable Loss Discrepancy Control",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Peiyao Xiao, Chaosheng Dong, Shaofeng Zou, Kaiyi Ji.",
+    "venue": "European Conference on Computer Vision (ECCV) 2026."
   },
   {
     "code": "",
@@ -24,7 +28,9 @@
     "paper": "https://arxiv.org/pdf/2606.16056",
     "recent": false,
     "title": "Beyond the Blood Draw: Explainable Machine Learning for Non-Invasive Dysglycemia Risk Screening",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Black Sun, Chenyi Zhang, Kaiyi Ji, Xi Lu.",
+    "venue": "American Medical Informatics Association (AMIA) 2026 Annual Symposium."
   },
   {
     "code": "https://github.com/peng-gao-lab/ReciNet",
@@ -33,7 +39,9 @@
     "paper": "https://arxiv.org/pdf/2502.02748",
     "recent": false,
     "title": "ReciNet: Reciprocal Space-Aware Long-Range Modeling for Crystalline Property Prediction",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Jianan Nie, Peiyao Xiao, Kaiyi Ji, Peng Gao.",
+    "venue": "Transactions on Machine Learning Research (TMLR) 2026."
   },
   {
     "code": "https://github.com/OptMN-Lab/SABER-ICML-2026/",
@@ -42,7 +50,9 @@
     "paper": "https://arxiv.org/pdf/2606.01379",
     "recent": false,
     "title": "Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Anushka Tiwari and Kaiyi Ji.",
+    "venue": "International Conference on Machine Learning (ICML) 2026."
   },
   {
     "code": "",
@@ -51,7 +61,9 @@
     "paper": "https://arxiv.org/pdf/2511.19656",
     "recent": true,
     "title": "Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Kaiyi Ji.",
+    "venue": "International Conference on Machine Learning (ICML) 2026."
   },
   {
     "code": "https://github.com/OptMN-Lab/ALoRA",
@@ -60,7 +72,9 @@
     "paper": "https://arxiv.org/pdf/2509.25414",
     "recent": true,
     "title": "Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Hao Ban and Kaiyi Ji.",
+    "venue": "Association for Computational Linguistics (ACL) 2026 Findings."
   },
   {
     "code": "",
@@ -69,7 +83,9 @@
     "paper": "https://openreview.net/forum?id=QEcSLhfOoQ",
     "recent": false,
     "title": "Minimax Optimal Adversarial Reinforcement Learning",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Yudan Wang, Kaiyi Ji, Ming Shi and Shaofeng Zou",
+    "venue": "International Conference on Learning Representations (ICLR) 2026."
   },
   {
     "code": "",
@@ -78,7 +94,9 @@
     "paper": "https://arxiv.org/pdf/2602.02767",
     "recent": false,
     "title": "Provable Effects of Data Replay in Continual Learning: A Feature Learning Perspective",
-    "year": "2026"
+    "year": "2026",
+    "authors": "Meng Ding, Jinhui Xu and Kaiyi Ji",
+    "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS) 2026."
   },
   {
     "code": "",
@@ -87,7 +105,9 @@
     "paper": "https://arxiv.org/pdf/2410.03833",
     "recent": false,
     "title": "Understanding Fine-tuning in Approximate Unlearning: A Theoretical Perspective",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Meng Ding, Rohan Sharma, Changyou Chen, Jinhui Xu and Kaiyi Ji",
+    "venue": "Transactions on Machine Learning Research (TMLR) 2025."
   },
   {
     "code": "",
@@ -96,7 +116,9 @@
     "paper": "https://arxiv.org/pdf/2410.18894?",
     "recent": false,
     "title": "Meta-Learning with Heterogeneous Tasks",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Zhaofeng Si, Shu Hu, Kaiyi Ji and Siwei Lyu",
+    "venue": "Generalizing from Limited Resources in the Open World Workshop (GLOW) (Best Paper Candidate Award) International Joint Conferences on Artificial Intelligence Organization (IJCAI) 2025."
   },
   {
     "code": "https://github.com/OptMN-Lab/SAMO",
@@ -105,7 +127,9 @@
     "paper": "https://arxiv.org/pdf/2507.07883",
     "recent": false,
     "title": "SAMO: A Lightweight Sharpness-Aware Approach for Multi-Task Optimization with Joint Global-Local Perturbation",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Hao Ban, Gokul Ram Subramani and Kaiyi Ji.",
+    "venue": "International Conference on Computer Vision (ICCV) 2025."
   },
   {
     "code": "https://github.com/OptMN-Lab/tfbo",
@@ -114,7 +138,9 @@
     "paper": "https://arxiv.org/pdf/2410.05140",
     "recent": true,
     "title": "Tuning-Free Bilevel Optimization: New Algorithms and Convergence Analysis",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Yifan Yang, Hao Ban, Minhui Huang, Shiqian Ma, Kaiyi Ji.",
+    "venue": "International Conference on Learning Representations (ICLR) 2025."
   },
   {
     "code": "",
@@ -123,7 +149,9 @@
     "paper": "https://arxiv.org/pdf/2405.19440",
     "recent": false,
     "title": "MGDA Converges under Generalized Smoothness, Provably",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Qi Zhang*, Peiyao Xiao*, Shaofeng Zou, Kaiyi Ji.",
+    "venue": "International Conference on Learning Representations (ICLR) 2025."
   },
   {
     "code": "",
@@ -132,7 +160,9 @@
     "paper": "https://arxiv.org/pdf/2405.16077",
     "recent": false,
     "title": "Theoretical Study of Conflict-Avoidant Multi-Objective Reinforcement Learning",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Yudan Wang, Peiyao Xiao, Hao Ban, Kaiyi Ji, Shaofeng Zou.",
+    "venue": "IEEE Transactions on Information Theory (TIT) 2025."
   },
   {
     "code": "",
@@ -141,7 +171,9 @@
     "paper": "https://arxiv.org/pdf/2202.03684.pdf",
     "recent": false,
     "title": "Efficiently Escaping Saddle Points in Bilevel Optimization",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Minhui Huang, Kaiyi Ji, Shiqian Ma, Lifeng Lai.",
+    "venue": "Journal of Machine Learning Research (JMLR) 2025."
   },
   {
     "code": "https://github.com/pypose/pypose",
@@ -150,7 +182,9 @@
     "paper": "https://arxiv.org/pdf/2406.16087",
     "recent": false,
     "title": "Imperative Learning: A Self-supervised Neural-Symbolic Learning Framework for Robot Autonomy",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Chen Wang, Kaiyi Ji, Junyi Geng, Zhongqiang Ren, Taimeng Fu, Fan Yang, Yifan Guo, Haonan He, Xiangyu Chen, Zitong Zhan, Qiwei Du, Shaoshu Su, Bowen Li, Yuheng Qiu, Yi Du, Qihang Li, Yifan Yang, Xiao Lin, Zhipeng Zhao.",
+    "venue": "The International Journal of Robotics Research (IJRR) 2025."
   },
   {
     "code": "",
@@ -159,7 +193,9 @@
     "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34355",
     "recent": false,
     "title": "First-Order Federated Bilevel Learning",
-    "year": "2025"
+    "year": "2025",
+    "authors": "Yifan Yang, Peiyao Xiao, Shiqian Ma, Kaiyi Ji.",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI) 2025."
   },
   {
     "code": "",
@@ -168,7 +204,9 @@
     "paper": "https://arxiv.org/pdf/2405.17583",
     "recent": true,
     "title": "Understanding Forgetting in Continual Learning with Linear Regression",
-    "year": "2024"
+    "year": "2024",
+    "authors": "Meng Ding, Kaiyi Ji, Di Wang, Jinhui Xu.",
+    "venue": "International Conference on Machine Learning (ICML) 2024."
   },
   {
     "code": "https://github.com/OptMN-Lab/fairgrad",
@@ -177,7 +215,9 @@
     "paper": "https://arxiv.org/pdf/2402.15638.pdf",
     "recent": false,
     "title": "Fair Resource Allocation in Multi-Task Learning",
-    "year": "2024"
+    "year": "2024",
+    "authors": "Hao Ban and Kaiyi Ji.",
+    "venue": "International Conference on Machine Learning (ICML) 2024."
   },
   {
     "code": "https://github.com/rohan1561/AUC-CL",
@@ -186,7 +226,9 @@
     "paper": "https://openreview.net/pdf?id=YgMdDQB09U",
     "recent": false,
     "title": "AUC-CL: A Batchsize-Robust Framework for Self-Supervised Contrastive Representation Learning",
-    "year": "2024"
+    "year": "2024",
+    "authors": "Rohan Sharma, Kaiyi Ji, Zhiqiang Xu, Changyou Chen.",
+    "venue": "International Conference on Learning Representations (ICLR) 2024."
   },
   {
     "code": "",
@@ -195,7 +237,9 @@
     "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10480627",
     "recent": false,
     "title": "Boosting One-Point Derivative-Free Online Optimization via Residual Feedback",
-    "year": "2024"
+    "year": "2024",
+    "authors": "Yan Zhang, Yi Zhou, Kaiyi Ji, Yi Shen, and Michael M. Zavlanos.",
+    "venue": "IEEE Transactions on Automatic Control, 2024."
   },
   {
     "code": "",
@@ -204,7 +248,9 @@
     "paper": "",
     "recent": false,
     "title": "First-Order Minimax Bilevel Optimization.",
-    "year": "2024"
+    "year": "2024",
+    "authors": "Yifan Yang*, Zhaofeng Si*, Siwei Lyu, Kaiyi Ji.",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2024."
   },
   {
     "code": "https://github.com/ml-opt-lab/sdmgrad",
@@ -213,7 +259,9 @@
     "paper": "https://arxiv.org/pdf/2305.18409.pdf",
     "recent": false,
     "title": "Direction-oriented Multi-objective Learning: Simple and Provable Stochastic Algorithms",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Peiyao Xiao*, Hao Ban*, Kaiyi Ji.",
+    "venue": "Accepted by Conference on Neural Information Processing Systems (NeurIPS) 2023."
   },
   {
     "code": "",
@@ -222,7 +270,9 @@
     "paper": "https://arxiv.org/pdf/2305.19442.pdf",
     "recent": false,
     "title": "SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel Learning",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Yifan Yang, Peiyao Xiao, Kaiyi Ji.",
+    "venue": "Accepted by Conference on Neural Information Processing Systems (NeurIPS) 2023. (Spotlight, 5% acceptance rate)"
   },
   {
     "code": "",
@@ -231,7 +281,9 @@
     "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7c3a8d20ceadb7c519e9ac1bb77a15ff-Paper-Conference.pdf",
     "recent": false,
     "title": "Achieving O(\\epsilon^{-1.5}) Complexity in Hessian/Jacobian-free Stochastic Bilevel Optimization",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Yifan Yang, Peiyao Xiao, Kaiyi Ji.",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2023."
   },
   {
     "code": "",
@@ -240,7 +292,9 @@
     "paper": "https://arxiv.org/pdf/2308.03811.pdf",
     "recent": false,
     "title": "Non-Convex Bilevel Optimization with Time-Varying Objective Functions",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Sen Lin, Daouda Sow, Kaiyi Ji, Yingbin Liang, Ness Shroff.",
+    "venue": "Accepted by Conference on Neural Information Processing Systems (NeurIPS) 2023."
   },
   {
     "code": "https://github.com/MingruiLiu-ML-Lab/Bilevel-Coreset-Selection-via-Regularization",
@@ -249,7 +303,9 @@
     "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a0251e494a7e75d59e06d37e646f46b7-Paper-Conference.pdf",
     "recent": false,
     "title": "Bilevel Coreset Selection in Continual Learning: A New Formulation and Algorithm",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Jie Hao, Kaiyi Ji, Mingrui Liu.",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2023."
   },
   {
     "code": "",
@@ -258,7 +314,9 @@
     "paper": "https://arxiv.org/pdf/2301.01801.pdf",
     "recent": false,
     "title": "Network Utility Maximization with Unknown Utility Functions: A Distributed, Data-Driven Bilevel Optimization Approach",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Kaiyi Ji and Lei Ying.",
+    "venue": "ACM MobiHoc 2023!"
   },
   {
     "code": "",
@@ -267,7 +325,9 @@
     "paper": "https://arxiv.org/pdf/2302.04969.pdf",
     "recent": false,
     "title": "Communication-Efficient Federated Hypergradient Computation via Aggregated Iterative Differentiation",
-    "year": "2023"
+    "year": "2023",
+    "authors": ". Peiyao Xiao and Kaiyi Ji.",
+    "venue": "International Conference on Machine Learning (ICML) 2023."
   },
   {
     "code": "",
@@ -276,7 +336,9 @@
     "paper": "https://arxiv.org/pdf/2302.05412.pdf",
     "recent": false,
     "title": "Achieving Linear Speedup in Non-IID Federated Bilevel Learning",
-    "year": "2023"
+    "year": "2023",
+    "authors": "Minhui Huang*, Dewei Zhang*, Kaiyi Ji.",
+    "venue": "International Conference on Machine Learning (ICML) 2023."
   },
   {
     "code": "https://github.com/sowmaster/esjacobians",
@@ -285,7 +347,9 @@
     "paper": "https://openreview.net/pdf?id=suHUJr7dV5n",
     "recent": false,
     "title": "On the Convergence Theory for Hessian-Free Bilevel Algorithms",
-    "year": "2022"
+    "year": "2022",
+    "authors": "Daouda Sow, Kaiyi Ji, Yingbin Liang",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2022."
   },
   {
     "code": "",
@@ -294,7 +358,9 @@
     "paper": "https://openreview.net/pdf?id=4lw1XqPvLzT",
     "recent": false,
     "title": "Will Bilevel Optimizers Benefit from Loops",
-    "year": "2022"
+    "year": "2022",
+    "authors": "Kaiyi Ji, Mingrui Liu, Yingbin Liang, Lei Ying",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2022. (Spotlight, 5% acceptance rate)"
   },
   {
     "code": "",
@@ -303,7 +369,9 @@
     "paper": "https://www.jmlr.org/papers/volume24/21-0949/21-0949.pdf",
     "recent": false,
     "title": "Lower Bounds and Accelerated Algorithms for Bilevel Optimization",
-    "year": "2022"
+    "year": "2022",
+    "authors": "Kaiyi Ji, Yingbin Liang",
+    "venue": "Journal of Machine Learning Research (JMLR) 2022."
   },
   {
     "code": "",
@@ -312,7 +380,9 @@
     "paper": "https://arxiv.org/pdf/2204.00006.pdf",
     "recent": false,
     "title": "Data Sampling Affects the Complexity of Online SGD over Dependent Data",
-    "year": "2022"
+    "year": "2022",
+    "authors": "Shaocong Ma, Ziyi Chen, Yi Zhou, Kaiyi Ji, Yingbin Liang.",
+    "venue": "Conference on Uncertainty in Artificial Intelligence (UAI) 2022."
   },
   {
     "code": "https://github.com/JunjieYang97/MRVRBO",
@@ -321,7 +391,9 @@
     "paper": "https://arxiv.org/pdf/2106.04692.pdf",
     "recent": false,
     "title": "Provably Faster Algorithms for Bilevel Optimization",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Junjie Yang, Kaiyi Ji, Yingbin Liang",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2021. (Spotlight, 3% acceptance rate)"
   },
   {
     "code": "https://github.com/JunjieYang97/stocBiO",
@@ -330,7 +402,9 @@
     "paper": "https://arxiv.org/abs/2010.07962",
     "recent": false,
     "title": "Bilevel Optimization: Nonasymptotic Analysis and Faster Algorithms",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Kaiyi Ji, Junjie Yang, Yingbin Liang",
+    "venue": "International Conference on Machine Learning (ICML) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems."
   },
   {
     "code": "",
@@ -339,7 +413,9 @@
     "paper": "",
     "recent": false,
     "title": "A New One-Point Residual-Feedback Oracle For Black-Box Learning and Control",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Yan Zhang, Yi Zhou, Kaiyi Ji, Michael M. Zavlanos",
+    "venue": "Automatica 2021."
   },
   {
     "code": "",
@@ -348,7 +424,9 @@
     "paper": "https://arxiv.org/pdf/2002.07836.pdf",
     "recent": false,
     "title": "Theoretical Convergence of Multi-Step Model-Agnostic Meta-Learning",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Kaiyi Ji, Junjie Yang, Yingbin Liang",
+    "venue": "Journal of Machine Learning Research (JMLR) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems"
   },
   {
     "code": "",
@@ -357,7 +435,9 @@
     "paper": "https://ieeexplore.ieee.org/document/9330788",
     "recent": false,
     "title": "Understanding Estimation and Generalization Error of Generative Adversarial Networks",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Kaiyi Ji, Yi Zhou, Yingbin Liang",
+    "venue": "IEEE Trans. on Information Theory (TIT), 2021."
   },
   {
     "code": "",
@@ -366,7 +446,9 @@
     "paper": "https://onlinelibrary.wiley.com/doi/abs/10.1002/sta4.354",
     "recent": false,
     "title": "When Will Gradient Methods Converge to Max-margin Classifier under ReLU Models?",
-    "year": "2021"
+    "year": "2021",
+    "authors": "Tengyu Xu, Yi Zhou, Kaiyi Ji, Yingbin Liang",
+    "venue": "Stat, Special Issue of Deep Learning from Statistical Perspective, 2021"
   },
   {
     "code": "",
@@ -375,7 +457,9 @@
     "paper": "https://arxiv.org/pdf/2006.09486.pdf",
     "recent": false,
     "title": "Convergence of Meta-Learning with Task-Specific Adaptation over Partial Parameters",
-    "year": "2020"
+    "year": "2020",
+    "authors": "Kaiyi Ji, Jason D. Lee, Yingbin Liang, H. Vincent Poor",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2020."
   },
   {
     "code": "",
@@ -384,7 +468,9 @@
     "paper": "https://arxiv.org/pdf/1910.09670.pdf",
     "recent": false,
     "title": "History-Gradient Aided Batch Size Adaptation for Variance Reduced Algorithms",
-    "year": "2020"
+    "year": "2020",
+    "authors": "Kaiyi Ji, Zhe Wang, Bowen Weng, Yi Zhou, Wei Zhang, Yingbin Liang,",
+    "venue": "International Conference on Machine Learning (ICML) 2020."
   },
   {
     "code": "",
@@ -393,7 +479,9 @@
     "paper": "https://arxiv.org/pdf/1802.05821.pdf",
     "recent": false,
     "title": "Learning Latent Features with Pairwise Penalties in Matrix Completion",
-    "year": "2020"
+    "year": "2020",
+    "authors": "Kaiyi Ji, Jian Tan, Yuejie Chi, Jinfeng Xu",
+    "venue": "IEEE Trans. on Signal Processing (TSP), 2020 Short version as an invited paper to a special session at the IEEE SAM 2020"
   },
   {
     "code": "",
@@ -402,7 +490,9 @@
     "paper": "https://arxiv.org/pdf/2002.11582.pdf",
     "recent": false,
     "title": "Proximal Gradient Algorithm with Momentum and Flexible Parameter Restart for Nonconvex Optimization",
-    "year": "2020"
+    "year": "2020",
+    "authors": "Yi Zhou, Zhe Wang, Kaiyi Ji, Yingbin Liang, Vahid Tarokh",
+    "venue": "International Joint Conferences on Artificial Intelligence Organization (IJCAI) 2020."
   },
   {
     "code": "",
@@ -411,7 +501,9 @@
     "paper": "https://arxiv.org/pdf/2002.07214.pdf",
     "recent": false,
     "title": "Robust Stochastic Bandit Algorithms under Probabilistic Unbounded Adversarial Attack",
-    "year": "2020"
+    "year": "2020",
+    "authors": "Ziwei Guan, Kaiyi Ji, Donald J. Bucci Jr, Timothy Hu, Joseph Palombo, Michael Liston, Yingbin Liang",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI) 2020."
   },
   {
     "code": "",
@@ -420,7 +512,9 @@
     "paper": "https://proceedings.neurips.cc/paper/2019/file/512c5cad6c37edb98ae91c8a76c3a291-Paper.pdf",
     "recent": false,
     "title": "SpiderBoost and Momentum: Faster Stochastic Variance Reduction Algorithms",
-    "year": "2019"
+    "year": "2019",
+    "authors": "Zhe Wang, Kaiyi Ji, Yi Zhou, Yingbin Liang, Vahid Tarokh",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2019."
   },
   {
     "code": "",
@@ -429,7 +523,9 @@
     "paper": "http://proceedings.mlr.press/v97/ji19a/ji19a.pdf",
     "recent": false,
     "title": "Improved Zeroth-Order Variance Reduced Algorithms and Analysis for Nonconvex Optimization",
-    "year": "2019"
+    "year": "2019",
+    "authors": "Kaiyi Ji, Zhe Wang, Yi Zhou, Yingbin Liang",
+    "venue": "International Conference on Machine Learning (ICML) 2019."
   },
   {
     "code": "",
@@ -438,7 +534,9 @@
     "paper": "https://proceedings.neurips.cc/paper/2018/file/dea9ddb25cbf2352cf4dec30222a02a5-Paper.pdf",
     "recent": false,
     "title": "Minimax Estimation of Neural Net Distance",
-    "year": "2019"
+    "year": "2019",
+    "authors": "Kaiyi Ji, Yingbin Liang",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS) 2018."
   },
   {
     "code": "",
@@ -447,7 +545,9 @@
     "paper": "https://ieeexplore.ieee.org/document/8485860",
     "recent": false,
     "title": "Asymptotic Miss Ratio of LRU Caching with Consistent Hashing",
-    "year": "2018"
+    "year": "2018",
+    "authors": "Kaiyi Ji, Guocong Quan, Jian Tan",
+    "venue": "IEEE INFOCOM 2018."
   },
   {
     "code": "",
@@ -456,7 +556,9 @@
     "paper": "https://ieeexplore.ieee.org/document/8485891",
     "recent": false,
     "title": "LRU Caching with Dependent Competing Requests",
-    "year": "2018"
+    "year": "2018",
+    "authors": "Guocong Quan, Kaiyi Ji, Jian Tan",
+    "venue": "IEEE INFOCOM 2018."
   },
   {
     "code": "",
@@ -465,7 +567,9 @@
     "paper": "https://dl.acm.org/doi/10.1145/3179408",
     "recent": false,
     "title": "On Resource Pooling and Separation for LRU Caching",
-    "year": "2018"
+    "year": "2018",
+    "authors": "Jian Tan, Guocong Quan, Kaiyi Ji, Ness Shroff",
+    "venue": "ACM SIGMETRICS 2018."
   },
   {
     "code": "",
@@ -474,6 +578,8 @@
     "paper": "",
     "recent": false,
     "title": "On Resource Pooling and Separation for LRU Caching",
-    "year": "2018"
+    "year": "2018",
+    "authors": "Jian Tan, Guocong Quan, Kaiyi Ji, Ness Shroff",
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS), 2018"
   }
 ]
