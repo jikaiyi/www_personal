@@ -76,13 +76,13 @@ title: Home
   </p>
 
   <ul class="tab-nav">
-    <li><button class="button" data-ref="#pub-highlighted">Highlighted</button></li>
+    <li><button class="active button" data-ref="#pub-highlighted">Highlighted</button></li>
     <li><button class="button" data-ref="#pub-recent">Recent</button></li>
-    <li><button class="active button" data-ref="#pub-all">All</button></li>
+    <li><button class="button" data-ref="#pub-all">All</button></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane" id="pub-highlighted">
+    <div class="tab-pane active" id="pub-highlighted">
       {% for publication in site.data.kaiyi_publications %}
         {% if publication.highlighted %}
           <div class="paper">
@@ -126,7 +126,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane active" id="pub-all">
+    <div class="tab-pane" id="pub-all">
       {% for publication in site.data.kaiyi_publications %}
         <div class="paper">
           <p class="title"><b>{{ publication.title }}</b></p>

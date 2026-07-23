@@ -46,7 +46,7 @@
   {
     "code": "https://github.com/OptMN-Lab/SABER-ICML-2026/",
     "details": "Anushka Tiwari and Kaiyi Ji. International Conference on Machine Learning (ICML) 2026.",
-    "highlighted": false,
+    "highlighted": true,
     "paper": "https://arxiv.org/pdf/2606.01379",
     "recent": false,
     "title": "Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning",
@@ -68,7 +68,7 @@
   {
     "code": "https://github.com/OptMN-Lab/ALoRA",
     "details": "Hao Ban and Kaiyi Ji. Association for Computational Linguistics (ACL) 2026 Findings.",
-    "highlighted": false,
+    "highlighted": true,
     "paper": "https://arxiv.org/pdf/2509.25414",
     "recent": true,
     "title": "Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs",
