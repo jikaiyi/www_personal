@@ -263,7 +263,7 @@
     "paper": "https://arxiv.org/pdf/2305.18409.pdf",
     "recent": false,
     "title": "Direction-oriented Multi-objective Learning: Simple and Provable Stochastic Algorithms",
-    "highlight_group": "theory",
+    "highlight_group": "multiple-objectives",
     "year": "2023",
     "authors": "Peiyao Xiao*, Hao Ban*, Kaiyi Ji.",
     "venue": "Accepted by Conference on Neural Information Processing Systems (NeurIPS) 2023."
