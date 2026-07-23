@@ -15,15 +15,17 @@ body{font-size:1.5rem;line-height:1.65;color:#252525}
 .docs-section p,.docs-section li{line-height:1.7}
 .research-theme{font-size:1.7rem;font-weight:600;letter-spacing:.01rem;margin:2.8rem 0 1rem!important}
 .research-theme+ul{margin-top:0}
-.news-scroll{max-height:25rem;overflow-y:auto;padding-right:1.2rem;scrollbar-width:thin;scrollbar-color:#aaa transparent;overscroll-behavior:contain}
-.news-scroll:focus{outline:1px solid #bbb;outline-offset:.6rem}
-.news-scroll ul{margin:0 0 0 2rem}
-.news-scroll li{padding-right:.5rem;margin-bottom:1.4rem}
-.news-scroll li:last-child{margin-bottom:0}
-.news-scroll::-webkit-scrollbar{width:.8rem}
+.news-scroll{max-height:29rem;overflow-y:auto;padding-right:1rem;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;scrollbar-width:thin;scrollbar-color:#b5b5b5 transparent;overscroll-behavior:contain}
+.news-scroll:focus{outline:1px solid #bbb;outline-offset:.5rem}
+.news-scroll ul{list-style:none;margin:0;padding:0}
+.news-scroll li{margin:0;padding:1.35rem .5rem 1.35rem 0;border-bottom:1px solid #ededed;line-height:1.65}
+.news-scroll li:last-child{border-bottom:0}
+.news-scroll li>strong{display:block;margin-bottom:.25rem;color:#666;font-size:1.2rem;font-weight:600;letter-spacing:.06rem;line-height:1.4;text-transform:uppercase}
+.news-scroll a{text-decoration-thickness:1px;text-underline-offset:.2rem}
+.news-scroll::-webkit-scrollbar{width:.65rem}
 .news-scroll::-webkit-scrollbar-track{background:transparent}
-.news-scroll::-webkit-scrollbar-thumb{background:#aaa;border-radius:1rem}
-.news-scroll::-webkit-scrollbar-thumb:hover{background:#777}
+.news-scroll::-webkit-scrollbar-thumb{background:#b5b5b5;border-radius:1rem}
+.news-scroll::-webkit-scrollbar-thumb:hover{background:#888}
 .paper{margin-bottom:2.4rem}
 .paper .title b{font-weight:600}
 .paper p{line-height:1.55}
