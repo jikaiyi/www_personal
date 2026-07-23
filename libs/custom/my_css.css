@@ -15,7 +15,7 @@ body{font-size:1.5rem;line-height:1.65;color:#252525}
 .docs-section p,.docs-section li{line-height:1.7}
 .research-theme{font-size:1.7rem;font-weight:600;letter-spacing:.01rem;margin:2.8rem 0 1rem!important}
 .research-theme+ul{margin-top:0}
-.news-scroll{max-height:29rem;overflow-y:auto;padding-right:1rem;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;scrollbar-width:thin;scrollbar-color:#b5b5b5 transparent;overscroll-behavior:contain}
+.news-scroll{max-height:72rem;overflow-y:auto;padding-right:1rem;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;scrollbar-width:thin;scrollbar-color:#b5b5b5 transparent;overscroll-behavior:contain}
 .news-scroll:focus{outline:1px solid #bbb;outline-offset:.5rem}
 .news-scroll ul{list-style:none;margin:0;padding:0}
 .news-scroll li{margin:0;padding:1.35rem .5rem 1.35rem 0;border-bottom:1px solid #ededed;line-height:1.65}
