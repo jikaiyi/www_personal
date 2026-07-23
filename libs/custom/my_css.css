@@ -35,6 +35,8 @@ body{font-size:1.5rem;line-height:1.65;color:#252525}
 .paper{margin-bottom:2.4rem}
 .paper .title b{font-weight:600}
 .paper p{line-height:1.55}
+.publication-group{margin:3.5rem 0 1.8rem!important;font-size:1.75rem!important;font-weight:600!important;line-height:1.4!important;color:#555}
+#pub-highlighted .publication-group:first-child{margin-top:2.2rem!important}
 .tab-nav .button{letter-spacing:.08rem}
 
 @media(max-width:749px){

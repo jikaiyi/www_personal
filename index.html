@@ -83,24 +83,29 @@ title: Home
 
   <div class="tab-content">
     <div class="tab-pane active" id="pub-highlighted">
-      {% for publication in site.data.kaiyi_publications %}
-        {% if publication.highlighted %}
-          <div class="paper">
-            <p class="title"><b>{{ publication.title }}</b></p>
-            <p>{{ publication.authors }}</p>
-            <p><i>{{ publication.venue }}</i></p>
-            {% if publication.paper != "" or publication.code != "" %}
-              <div class="paper-buttons">
-                {% if publication.paper != "" %}
-                  <a class="button" href="{{ publication.paper }}">Paper</a>
-                {% endif %}
-                {% if publication.code != "" %}
-                  <a class="button" href="{{ publication.code }}">Code</a>
-                {% endif %}
-              </div>
-            {% endif %}
-          </div>
-        {% endif %}
+      {% assign highlighted_groups = "Efficient Methods for Large Language Models|llm,Machine Learning with Multiple Objectives|multiple-objectives,Fundamental Theory of Bilevel and Multi-Objective Optimization|theory" | split: "," %}
+      {% for group in highlighted_groups %}
+        {% assign group_parts = group | split: "|" %}
+        <h5 class="publication-group">{{ group_parts[0] }}</h5>
+        {% for publication in site.data.kaiyi_publications %}
+          {% if publication.highlighted and publication.highlight_group == group_parts[1] %}
+            <div class="paper">
+              <p class="title"><b>{{ publication.title }}</b></p>
+              <p>{{ publication.authors }}</p>
+              <p><i>{{ publication.venue }}</i></p>
+              {% if publication.paper != "" or publication.code != "" %}
+                <div class="paper-buttons">
+                  {% if publication.paper != "" %}
+                    <a class="button" href="{{ publication.paper }}">Paper</a>
+                  {% endif %}
+                  {% if publication.code != "" %}
+                    <a class="button" href="{{ publication.code }}">Code</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
 
