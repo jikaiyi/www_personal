@@ -53,7 +53,7 @@ title: Home
     </div>
 
     <div class="tab-pane" id="pub-recent">
-      {% assign recent_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.recent %}{% if publication.year != recent_year %}<h5>{{ publication.year }}</h5>{% assign recent_year = publication.year %}{% endif %}
+      {% for publication in site.data.kaiyi_publications %}{% if publication.recent %}
       <div class="paper">
         <p class="title"><b>{{ publication.title }}</b></p>
         <p>{{ publication.authors }}</p>
@@ -64,7 +64,7 @@ title: Home
     </div>
 
     <div class="tab-pane active" id="pub-all">
-      {% assign publication_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.year != publication_year %}<h5>{{ publication.year }}</h5>{% assign publication_year = publication.year %}{% endif %}
+      {% for publication in site.data.kaiyi_publications %}
       <div class="paper">
         <p class="title"><b>{{ publication.title }}</b></p>
         <p>{{ publication.authors }}</p>
