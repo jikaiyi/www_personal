@@ -405,7 +405,7 @@
   },
   {
     "code": "https://github.com/JunjieYang97/stocBiO",
-    "details": "Kaiyi Ji, Junjie Yang, Yingbin Liang International Conference on Machine Learning (ICML) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems.",
+    "details": "Kaiyi Ji, Junjie Yang, Yingbin Liang. International Conference on Machine Learning (ICML) 2021.",
     "highlighted": true,
     "paper": "https://arxiv.org/abs/2010.07962",
     "recent": false,
@@ -413,7 +413,7 @@
     "highlight_group": "theory",
     "year": "2021",
     "authors": "Kaiyi Ji, Junjie Yang, Yingbin Liang",
-    "venue": "International Conference on Machine Learning (ICML) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems."
+    "venue": "International Conference on Machine Learning (ICML) 2021."
   },
   {
     "code": "",
@@ -428,14 +428,14 @@
   },
   {
     "code": "",
-    "details": "Kaiyi Ji, Junjie Yang, Yingbin Liang Journal of Machine Learning Research (JMLR) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems",
+    "details": "Kaiyi Ji, Junjie Yang, Yingbin Liang. Journal of Machine Learning Research (JMLR) 2021.",
     "highlighted": false,
     "paper": "https://arxiv.org/pdf/2002.07836.pdf",
     "recent": false,
     "title": "Theoretical Convergence of Multi-Step Model-Agnostic Meta-Learning",
     "year": "2021",
     "authors": "Kaiyi Ji, Junjie Yang, Yingbin Liang",
-    "venue": "Journal of Machine Learning Research (JMLR) 2021 Short version appears at ICML 2021 Workshop: Beyond First-Order Methods in ML Systems"
+    "venue": "Journal of Machine Learning Research (JMLR) 2021."
   },
   {
     "code": "",
