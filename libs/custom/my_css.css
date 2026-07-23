@@ -2,3 +2,36 @@ h4{letter-spacing:.1rem}.container{max-width:800px}.header{margin-top:60px;margi
 @media(min-width:550px){.header{margin-top:5rem}}
 @media(min-width:750px){.navbar+.docs-section{border-top-width:0}.navbar,.navbar-spacer{display:block;width:100%;height:6.5rem;background:#fff;z-index:99;border-top:1px solid #eee;border-bottom:1px solid #eee}.navbar-spacer{display:none}.navbar>.container{width:100%}.navbar-item{position:relative;float:left}.navbar-link{margin-right:25px;line-height:6.5rem}.navbar-link:hover,.navbar-link.active{color:#33c3f0}.has-docked-nav .navbar{position:fixed;top:0;left:0}.has-docked-nav .navbar-spacer{display:block}.has-docked-nav .navbar>.container{width:80%}}
 @media(max-width:749px){.header{text-align:center;margin:3rem 0}.header .three.columns{width:42%;margin-left:29%;margin-bottom:20px}.header .nine.columns{width:100%;margin-left:0}.navbar{display:block;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:8px 0}.navbar-list{display:flex;flex-wrap:wrap;justify-content:center;gap:5px 18px}.navbar-link{line-height:2.6rem}.docs-section{padding:3rem 0}}
+
+/* Refined academic typography and spacing */
+body{font-size:1.5rem;line-height:1.65;color:#252525}
+.header{margin-top:5rem;margin-bottom:1.5rem;padding:1.5rem}
+.header img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 28%}
+.main-description{padding-top:.2rem}
+.main-description h1{font-size:4.8rem;line-height:1.1;letter-spacing:-.08rem;font-weight:300}
+.docs-section{padding:4.5rem 0}
+.docs-section h4{font-size:3.1rem;line-height:1.3;letter-spacing:.02rem;margin-bottom:2.4rem}
+.docs-section h5{font-size:2.2rem;line-height:1.4;font-weight:400;letter-spacing:0;margin-top:3rem;margin-bottom:1.6rem}
+.docs-section p,.docs-section li{line-height:1.7}
+.research-theme{font-size:1.7rem;font-weight:600;letter-spacing:.01rem;margin:2.8rem 0 1rem!important}
+.research-theme+ul{margin-top:0}
+.news-scroll{max-height:25rem;overflow-y:auto;padding-right:1.2rem;scrollbar-width:thin;scrollbar-color:#aaa transparent;overscroll-behavior:contain}
+.news-scroll:focus{outline:1px solid #bbb;outline-offset:.6rem}
+.news-scroll ul{margin:0 0 0 2rem}
+.news-scroll li{padding-right:.5rem;margin-bottom:1.4rem}
+.news-scroll li:last-child{margin-bottom:0}
+.news-scroll::-webkit-scrollbar{width:.8rem}
+.news-scroll::-webkit-scrollbar-track{background:transparent}
+.news-scroll::-webkit-scrollbar-thumb{background:#aaa;border-radius:1rem}
+.news-scroll::-webkit-scrollbar-thumb:hover{background:#777}
+.paper{margin-bottom:2.4rem}
+.paper .title b{font-weight:600}
+.paper p{line-height:1.55}
+.tab-nav .button{letter-spacing:.08rem}
+
+@media(max-width:749px){
+  .header{margin:3rem 0 1rem;padding:0}
+  .header img{aspect-ratio:1/1}
+  .main-description h1{font-size:4.2rem}
+  .docs-section{padding:3.5rem 0}
+}
