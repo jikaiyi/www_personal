@@ -26,7 +26,7 @@ body{font-size:1.5rem;line-height:1.65;color:#252525}
 .news-scroll ul{list-style:none;margin:0;padding:0}
 .news-scroll li{margin:0;padding:1.35rem .5rem 1.35rem 0;border-bottom:1px solid #ededed;line-height:1.65}
 .news-scroll li:last-child{border-bottom:0}
-.news-scroll li>strong{display:block;margin-bottom:.25rem;color:#666;font-size:1.2rem;font-weight:600;letter-spacing:.06rem;line-height:1.4;text-transform:uppercase}
+.news-scroll li>strong:first-child{display:block;margin-bottom:.25rem;color:#666;font-size:1.2rem;font-weight:600;letter-spacing:.06rem;line-height:1.4;text-transform:uppercase}
 .news-scroll a{text-decoration-thickness:1px;text-underline-offset:.2rem}
 .news-scroll::-webkit-scrollbar{width:.65rem}
 .news-scroll::-webkit-scrollbar-track{background:transparent}
