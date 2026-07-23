@@ -77,7 +77,6 @@ title: Home
 
   <ul class="tab-nav">
     <li><button class="active button" data-ref="#pub-highlighted">Highlighted</button></li>
-    <li><button class="button" data-ref="#pub-recent">Recent</button></li>
     <li><button class="button" data-ref="#pub-all">All</button></li>
   </ul>
 
@@ -106,28 +105,6 @@ title: Home
             </div>
           {% endif %}
         {% endfor %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="pub-recent">
-      {% for publication in site.data.kaiyi_publications %}
-        {% if publication.recent %}
-          <div class="paper">
-            <p class="title"><b>{{ publication.title }}</b></p>
-            <p>{{ publication.authors }}</p>
-            <p><i>{{ publication.venue }}</i></p>
-            {% if publication.paper != "" or publication.code != "" %}
-              <div class="paper-buttons">
-                {% if publication.paper != "" %}
-                  <a class="button" href="{{ publication.paper }}">Paper</a>
-                {% endif %}
-                {% if publication.code != "" %}
-                  <a class="button" href="{{ publication.code }}">Code</a>
-                {% endif %}
-              </div>
-            {% endif %}
-          </div>
-        {% endif %}
       {% endfor %}
     </div>
 
