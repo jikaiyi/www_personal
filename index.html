@@ -44,7 +44,7 @@ title: Home
     <div class="tab-pane" id="pub-highlighted">
       {% for publication in site.data.kaiyi_publications %}{% if publication.highlighted %}
       <div class="paper">
-        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p class="title"><b>{{ publication.title }}</b></p>
         <p>{{ publication.details }}</p>
         {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
       </div>
@@ -54,7 +54,7 @@ title: Home
     <div class="tab-pane" id="pub-recent">
       {% assign recent_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.recent %}{% if publication.year != recent_year %}<h5>{{ publication.year }}</h5>{% assign recent_year = publication.year %}{% endif %}
       <div class="paper">
-        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p class="title"><b>{{ publication.title }}</b></p>
         <p>{{ publication.details }}</p>
         {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
       </div>
@@ -64,7 +64,7 @@ title: Home
     <div class="tab-pane active" id="pub-all">
       {% assign publication_year = "" %}{% for publication in site.data.kaiyi_publications %}{% if publication.year != publication_year %}<h5>{{ publication.year }}</h5>{% assign publication_year = publication.year %}{% endif %}
       <div class="paper">
-        <p class="title"><b>{% if publication.paper != "" %}<a href="{{ publication.paper }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</b></p>
+        <p class="title"><b>{{ publication.title }}</b></p>
         <p>{{ publication.details }}</p>
         {% if publication.paper != "" or publication.code != "" %}<div class="paper-buttons">{% if publication.paper != "" %}<a class="button" href="{{ publication.paper }}">Paper</a>{% endif %}{% if publication.code != "" %}<a class="button" href="{{ publication.code }}">Code</a>{% endif %}</div>{% endif %}
       </div>
