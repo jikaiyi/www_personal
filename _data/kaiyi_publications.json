@@ -58,10 +58,11 @@
   {
     "code": "",
     "details": "Kaiyi Ji. International Conference on Machine Learning (ICML) 2026.",
-    "highlighted": false,
+    "highlighted": true,
     "paper": "https://arxiv.org/pdf/2511.19656",
     "recent": true,
     "title": "Lower Complexity Bounds for Nonconvex-Strongly-Convex Bilevel Optimization with First-Order Oracles",
+    "highlight_group": "theory",
     "year": "2026",
     "authors": "Kaiyi Ji.",
     "venue": "International Conference on Machine Learning (ICML) 2026."
